@@ -99,3 +99,12 @@ div dl > dd {
     color: #595959;
     font-weight: bold;
 }
+
+@media screen and (max-width:480px) {
+    section div.component {
+        display: block;
+    }
+    .component > div {
+        width: auto;
+    }
+}
