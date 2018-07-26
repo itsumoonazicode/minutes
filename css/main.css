@@ -107,4 +107,7 @@ div dl > dd {
     .component > div {
         width: auto;
     }
+    .timeline > li {
+        display: block;
+    }
 }
